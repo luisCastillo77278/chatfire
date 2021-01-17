@@ -27,7 +27,7 @@ export class ChatService {
           this.usuario.email = resp?.email;
           this.usuario.photo = resp?.photoURL;
           this.usuario.uid = resp?.uid;
-          
+
         });
   }
 
